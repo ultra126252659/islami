@@ -35,8 +35,8 @@ crossAxisAlignment: CrossAxisAlignment.center,
 children: [
 SizedBox(height: 100,),
 Image.asset("assets/images/Sebha_head.png"),
-  ElevatedButton(
-    onPressed: () {
+  InkWell(
+    onTap: () {
       setState(() {
         angle += 0.1;
 
