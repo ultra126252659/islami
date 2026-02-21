@@ -15,4 +15,5 @@ class AppStyles {
     fontWeight: FontWeight.bold ,
 );
 
+
 }
